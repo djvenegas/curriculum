@@ -1,0 +1,302 @@
+@import url(http://fonts.googleapis.com/css?family=Marvel:400,700);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald:400,300,700);
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* perspective  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+@import url("layout.css");
+@import url("skeleton.css");
+@import url("prettyPhoto.css");
+/*$color:#244B5B;
+$color1:#C3D4C5;
+$color3:#D2E4D1;
+$color2:#7FB1B2;
+$color4:#9EC5C7;
+$color5:#5F604F;
+$colorhover:#34677a;
+$color1hover:#dbe7dd;
+$color3hover:#e6f1e5;
+$color2hover:#a1cecf;
+$color4hover:#beddde;
+$color5hover:#7f806c;
+$colorBlack:#142f3c;
+$color1Black:#abc1ad;
+$color3Black:#bed7bd;
+$color2Black:#5d9495;
+$color4Black:#7eadb0;
+$color5Black:#3f4032;
+*/
+.letras {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  height: 100%;
+  width: 100%; }
+
+/* grid */
+.grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  width: 100%; }
+
+.grid li {
+  position: relative;
+  float: left;
+  font-size: 8em;
+  font-weight: 700;
+  line-height: 1.4em;
+  max-height: 200px;
+  text-align: center;
+  width: 10%; }
+
+.grid li:last-child {
+  width: 50%;
+  height: 100%; }
+
+/* Common styles for the letters */
+.grid li span {
+  display: inline-block;
+  font-weight: 900;
+  line-height: 1;
+  position: relative;
+  color: rgba(0, 0, 0, 0.6);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 550px;
+  -ms-perspective: 550px;
+  perspective: 550px;
+  z-index: 1; }
+
+.grid li span:before, .grid li span:after {
+  position: absolute;
+  content: attr(data-letter);
+  line-height: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.grid li span:before {
+  text-shadow: none;
+  color: rgba(0, 0, 0, 0.12); }
+
+/* Colors */
+.ot-letter-left {
+  background: #111; }
+
+.ot-letter-left span {
+  text-shadow: 1px 4px 6px #111, 0 0 0 rgba(0, 0, 0, 0.3), 1px 4px 6px #7B133F; }
+
+.ot-letter-left span:after {
+  color: #7B133C; }
+
+.ot-letter-left:hover span:after {
+  color: #FFFFFF; }
+
+.ot-letter-right {
+  background: #111; }
+
+.ot-letter-right span {
+  text-shadow: 1px 4px 6px #111, 0 0 0 rgba(0, 0, 0, 0.3), 1px 4px 6px #7B133F; }
+
+.ot-letter-right span:after {
+  color: #46042C; }
+
+.ot-letter-right:hover span:after {
+  color: #FFFFFF; }
+
+.ot-letter-top {
+  background: #111; }
+
+.ot-letter-top span {
+  text-shadow: 1px 4px 6px #111, 0 0 0 rgba(0, 0, 0, 0.3), 1px 4px 6px #7B133F; }
+
+.ot-letter-top span:after {
+  color: #212121; }
+
+.ot-letter-top:hover span:after {
+  color: #FFFFFF; }
+
+.ot-letter-bottom {
+  background: #111; }
+
+.ot-letter-bottom span {
+  text-shadow: 1px 4px 6px #111, 0 0 0 rgba(0, 0, 0, 0.3), 1px 4px 6px #7B133F; }
+
+.ot-letter-bottom span:after {
+  color: #121111; }
+
+.ot-letter-bottom:hover span:after {
+  color: #FFFFFF; }
+
+/* Left */
+.ot-letter-left span:before, .ot-letter-left span:after {
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%; }
+
+.ot-letter-left span:before {
+  -webkit-transform: scale(1.08, 1) skew(0deg, 1deg);
+  -ms-transform: scale(1.08, 1) skew(0deg, 1deg);
+  transform: scale(1.08, 1) skew(0deg, 1deg); }
+
+.ot-letter-left span:after {
+  text-shadow: -1px 0px 0px rgba(255, 255, 255, 0.1), 3px 0px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transform: rotateY(-15deg);
+  -ms-transform: rotateY(-15deg);
+  transform: rotateY(-15deg); }
+
+.ot-letter-left:hover span:before {
+  -webkit-transform: scale(0.85, 1) skew(0deg, 20deg);
+  -ms-transform: scale(0.85, 1) skew(0deg, 20deg);
+  transform: scale(0.85, 1) skew(0deg, 20deg); }
+
+.ot-letter-left:hover span:after {
+  -webkit-transform: rotateY(-40deg);
+  -ms-transform: rotateY(-40deg);
+  transform: rotateY(-40deg); }
+
+/* Right */
+.ot-letter-right span:before, .ot-letter-right span:after {
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%; }
+
+.ot-letter-right span:before {
+  -webkit-transform: scale(0.85, 1) skew(0deg, 1deg);
+  -ms-transform: scale(0.85, 1) skew(0deg, 1deg);
+  transform: scale(0.85, 1) skew(0deg, 1deg); }
+
+.ot-letter-right span:after {
+  text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.1), -3px 0px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transform: rotateY(15deg);
+  -ms-transform: rotateY(15deg);
+  transform: rotateY(15deg); }
+
+.ot-letter-right:hover span:before {
+  -webkit-transform: scale(0.85, 1) skew(0deg, -20deg);
+  -ms-transform: scale(0.85, 1) skew(0deg, -20deg);
+  transform: scale(0.85, 1) skew(0deg, -20deg); }
+
+.ot-letter-right:hover span:after {
+  -webkit-transform: rotateY(40deg);
+  -ms-transform: rotateY(40deg);
+  transform: rotateY(40deg); }
+
+/* Up */
+.ot-letter-top span:before, .ot-letter-top span:after {
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%; }
+
+.ot-letter-top span:before {
+  -webkit-transform: scale(1, 0.95) skew(-4deg, 0deg);
+  -ms-transform: scale(1, 0.95) skew(-4deg, 0deg);
+  transform: scale(1, 0.95) skew(-4deg, 0deg); }
+
+.ot-letter-top span:after {
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1), 0px -3px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transform: rotateX(-15deg);
+  -ms-transform: rotateX(-15deg);
+  transform: rotateX(-15deg); }
+
+.ot-letter-top:hover span:before {
+  -webkit-transform: translateY(-0.05em) scale(1, 0.55) skew(-10deg, 0deg);
+  -ms-transform: translateY(-0.05em) scale(1, 0.55) skew(-10deg, 0deg);
+  transform: translateY(-0.05em) scale(1, 0.55) skew(-10deg, 0deg); }
+
+.ot-letter-top:hover span:after {
+  -webkit-transform: translateY(-0.035em) rotateX(-40deg);
+  -ms-transform: translateY(-0.035em) rotateX(-40deg);
+  transform: translateY(-0.035em) rotateX(-40deg); }
+
+/* Down */
+.ot-letter-bottom span:before, .ot-letter-bottom span:after {
+  -webkit-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 50% 0; }
+
+.ot-letter-bottom span:before {
+  -webkit-transform: scale(1, 1.05) skew(4deg, 0deg);
+  -ms-transform: scale(1, 1.05) skew(4deg, 0deg);
+  transform: scale(1, 1.05) skew(4deg, 0deg); }
+
+.ot-letter-bottom span:after {
+  text-shadow: 0px -1px 0px rgba(255, 255, 255, 0.1), 0px 3px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transform: rotateX(15deg);
+  -ms-transform: rotateX(15deg);
+  transform: rotateX(15deg); }
+
+.ot-letter-bottom:hover span:before {
+  -webkit-transform: translateY(-0.035em) scale(1, 1.2) skew(10deg, 0deg);
+  -ms-transform: translateY(-0.035em) scale(1, 1.2) skew(10deg, 0deg);
+  transform: translateY(-0.035em) scale(1, 1.2) skew(10deg, 0deg); }
+
+.ot-letter-bottom:hover span:after {
+  -webkit-transform: translateY(0.045em) rotateX(40deg);
+  -ms-transform: translateY(0.045em) rotateX(40deg);
+  transform: translateY(0.045em) rotateX(40deg); }
