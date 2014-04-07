@@ -14,11 +14,11 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">	
 
     
-    <!-- Favicons -->
+    <!-- Favicons 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
 
 	<!-- Google Web Fonts -->
 
@@ -161,12 +161,12 @@
         <div class="container aboutContainer">
         
             <div class="sixteen columns">
-            	<h1><span>About<br /></span>Surreal</h1>
-                <h3><span class="smallBold">Award winning</span> <span class="small">digital agency.</span>
-                <br><span class="mediumBold">We bring a personal</span> <span class="medium">and effective approach</span>
-                <br><span class="medium">to every project we work on,</span><span class="mediumBold">which is why</span>
-                <br><span class="large">our clients </span> <span class="largeBold">love us</span>
-                <br><span class="medium">and why they keep</span><span class="mediumBold"> coming back.</span> 
+            	<h1><span>Nosotros<br /></span>Nombre</h1>
+                <h3><span class="smallBold">Lorem ipsum dolor sit amet,</span> <span class="small">consectetur adipisicing</span>
+                <br><span class="mediumBold">tempor incididunt ut</span> <span class="medium">andlabore et dolore magna</span>
+                <br><span class="medium">aliqua. Ut enim ad minim,</span><span class="mediumBold">veniam, quis </span>
+                <br><span class="large">ostrud exercitation</span> <span class="largeBold">ullamco laboris nisi</span>
+                <br><span class="medium">ut aliquip ex ea commodo</span><span class="mediumBold"> onsequat.</span> 
                 </h3>
             </div>
             
@@ -174,8 +174,8 @@
             	<div class="teamImage">
                     <img class="scale-with-grid lazy" src="images/team1.jpg" alt=""/> 
                     <div class="teamName">
-                        <h2>Jane Smith</h2>
-                        <h3>Creative Director</h3>
+                        <h2>Nombre</h2>
+                        <h3>Director Creativo   </h3>
                         <ul class="socialLinksTeam tooltips">
                             <li class="twitter-white"><a href="#" rel="tooltip" title="Twitter">Twitter</a></li>
                             <li class="facebook-white"><a href="#" rel="tooltip" title="Facebook">Facebook</a></li>
@@ -224,8 +224,8 @@
             	<div class="teamImage">
                     <img class="scale-with-grid lazy" src="images/team2.jpg" alt=""/> 
                     <div class="teamName">
-                        <h2>Julie Smith</h2>
-                        <h3>Senior Designer</h3>
+                        <h2>Nombre</h2>
+                        <h3>Diseñador Senior</h3>
                         <ul class="socialLinksTeam tooltips">
                             <li class="twitter-white"><a href="#" rel="tooltip" title="Twitter">Twitter</a></li>
                             <li class="facebook-white"><a href="#" rel="tooltip" title="Facebook">Facebook</a></li>
@@ -274,8 +274,8 @@
             	<div class="teamImage">
                     <img class="scale-with-grid lazy" src="images/team3.jpg" alt=""/> 
                     <div class="teamName">
-                        <h2>Judy Smith</h2>
-                        <h3>Developer</h3>
+                        <h2>Nombre</h2>
+                        <h3>Desarrolador Senior </h3>
                         <ul class="socialLinksTeam tooltips">
                             <li class="twitter-white"><a href="#" rel="tooltip" title="Twitter">Twitter</a></li>
                             <li class="facebook-white"><a href="#" rel="tooltip" title="Facebook">Facebook</a></li>
@@ -319,9 +319,10 @@
                     </ul>
                 </div>
             </div>
+
             
             <div class="sixteen columns">
-            	<h3 class="sectionTitle">Our Numbers</h3>
+            	<h3 class="sectionTitle">Nuestros numeros</h3>
             </div>
             
             <div class="statsWrap">
@@ -329,7 +330,7 @@
                     <div class="statDummy"></div>
                     <div class="statInfo">
                         <p class="statNumber">98%</p>
-                        <p class="statText">Client Satisfaction</p>
+                        <p class="statText">Clientes satisfechos</p>
                     </div>
                 </div>
             </div>
@@ -338,7 +339,7 @@
                     <div class="statDummy"></div>
                     <div class="statInfo">
                         <p class="statNumber">21</p>
-                        <p class="statText">Awards Won in 2012</p>
+                        <p class="statText"></p>
                     </div>
                 </div>
             </div>
@@ -347,7 +348,7 @@
                     <div class="statDummy"></div>
                     <div class="statInfo">
                         <p class="statNumber">36</p>
-                        <p class="statText">Cups of coffee a day</p>
+                        <p class="statText"></p>
                     </div>
                 </div>
             </div>
@@ -356,7 +357,7 @@
                     <div class="statDummy"></div>
                     <div class="statInfo">
                         <p class="statNumber statNumberMedium">1,350</p>
-                        <p class="statText">Lines of code in this site</p>
+                        <p class="statText"></p>
                     </div>
                 </div>
             </div>
@@ -365,7 +366,7 @@
                     <div class="statDummy"></div>
                     <div class="statInfo">
                         <p class="statNumber">67</p>
-                        <p class="statText">Websites Built</p>
+                        <p class="statText"></p>
                     </div>
                 </div>
             </div>
@@ -374,7 +375,7 @@
                     <div class="statDummy"></div>
                     <div class="statInfo">
                         <p class="statNumber statNumberSmall">122,345</p>
-                        <p class="statText">Unique visitors to our site in 2012</p>
+                        <p class="statText"></p>
                     </div>
                 </div>
             </div>
@@ -383,7 +384,7 @@
                     <div class="statDummy"></div>
                     <div class="statInfo">
                         <p class="statNumber">54</p>
-                        <p class="statText">Average apps on iphone</p>
+                        <p class="statText"></p>
                     </div>
                 </div>
             </div>
@@ -392,7 +393,7 @@
                     <div class="statDummy"></div>
                     <div class="statInfo">
                         <p class="statNumber statNumberSmall">234,989</p>
-                        <p class="statText">Clients Unique Visitors for the first week after site launch</p>
+                        <p class="statText"></p>
                     </div>
                 </div>
             </div>
@@ -405,9 +406,9 @@
 				<div class="quote">
                 	<div class="container">
                         <div class="sixteen columns">
-                            <h3><span class="smallBold">A true</span> <span class="small">artist</span>
-                            <br><span class="large">is not one who</span> <span class="largeBold">is inspired,</span>
-                            <br><span class="medium">but one who</span><span class="mediumBold"> inspires others.</span> 
+                            <h3><span class="smallBold">Lorem ipsum dolor sit amet,</span> <span class="small">consectetur adipisicing</span>
+                            <br><span class="large">ostrud exercitation</span> <span class="largeBold">ullamco laboris nisi</span>
+                            <br><span class="medium">aliqua. Ut enim ad minim,</span><span class="mediumBold">veniam, quis </span>
                             <br><span class="author">Salvador Dali</span></h3>
                         </div>
                     </div>  
@@ -426,11 +427,11 @@
         <div class="container servicesContainer">
         
              <div class="sixteen columns">
-             	<h1><span>Our</span><br/>Services</h1>
-                <h3><span class="mediumBold">We have a</span> <span class="medium">unique</span>
-                <br><span class="medium">blend of talent</span> <span class="mediumBold">that allows</span>
-                <br><span class="large">us to offer</span> <span class="largeBold">such a diverse</span>
-                <br><span class="medium">range of</span> <span class="mediumBold">services.</span> 
+             	<h1><span>Nuestros</span><br/>Servicios</h1>
+                <h3><span class="smallBold">Lorem ipsum dolor sit amet,</span> <span class="small">consectetur adipisicing</span>
+                <br><span class="medium">aliqua. Ut enim ad minim,</span><span class="mediumBold">veniam, quis </span>
+                <br><span class="large">ostrud exercitation</span> <span class="largeBold">ullamco laboris nisi</span>
+                <br><span class="medium">ut aliquip ex ea commodo</span><span class="mediumBold"> onsequat.</span> 
                 </h3>
             </div>
       
@@ -532,10 +533,10 @@
 				<div class="quote">
                 	<div class="container">
                         <div class="sixteen columns">
-                            <h3><span class="largeBold">Intelligence</span> <span class="large">without ambition</span>
-                                <br><span class="medium">is a bird</span> <span class="mediumBold">without wings.</span> 
-                                <br><span class="author">Salvador Dali</span>
-                            </h3>
+                            <h3><span class="smallBold">Lorem ipsum dolor sit amet,</span> <span class="small">consectetur adipisicing</span>
+                            <br><span class="large">ostrud exercitation</span> <span class="largeBold">ullamco laboris nisi</span>
+                            <br><span class="medium">aliqua. Ut enim ad minim,</span><span class="mediumBold">veniam, quis </span>
+                            <br><span class="author">Salvador Dali</span></h3>
                         </div>
                     </div>
 				</div>
@@ -553,29 +554,30 @@
         <div class="container featuresContainer">
         
         	 <div class="sixteen columns">
-             	<h1><span>Key</span><br/>Features</h1>
-                <h3><span class="mediumBold">Easily add</span> <span class="medium">more sections</span>
-                <br><span class="medium">to the site</span> <span class="mediumBold">with ease</span>
-                <br><span class="large">very clean</span> <span class="largeBold">HTML & CSS.</span>
+             	<h1><span>Caracteristicas</span><br/>Principales</h1>
+                <h3><span class="mediumBold">Lorem ipsum dolor sit amet,</span> <span class="medium">consectetur adipisicing</span>
+                <br><span class="medium">aliqua. Ut enim ad minim,</span><span class="mediumBold">veniam, quis </span>
+                <br><span class="large">ostrud exercitation</span> <span class="largeBold">ullamco laboris nisi</span>
                 </h3>
             </div>
               
             <div class="sixteen columns">
                 <h3 class="sectionTitle">Youtube & Vimeo Support</h3>
-                <p>Embed Videos directly from your favourite video websites like Vimeo or Youtube & show off your Creativity.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,.</p>
                 <div class="embed-container">
-                    <iframe width="1280" height="720" src="http://www.youtube.com/embed/TjBCu4N8bxQ" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/VXPoJAyeF8k" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         
         	<!-- Flickr -->
-            <div class="sixteen columns latestFlickr">
+          <!--  <div class="sixteen columns latestFlickr">
                 <h3 class="sectionTitle">Flickr</h3>
                     <div class="flickrListing">
                         <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=21644167@N04"></script>
                         <div class="clearfix"></div>
                     </div>
-            </div>
+            </div>-->
             
             <!-- FAQs -->
 			<div class="sixteen columns">
@@ -628,9 +630,9 @@
 				<div class="quote">
                 	<div class="container">
                         <div class="sixteen columns">
-                            <h3><span class="largeBold">Drawing is the</span> <span class="large">honesty of the art.</span>
-                                <br><span class="medium">There is no possibility</span> <span class="mediumBold">of cheating:</span>
-                                <br><span class="large">It is either</span> <span class="largeBold">good or bad.</span> 
+                            <h3><span class="largeBold">Lorem ipsum dolor sit amet,</span> <span class="large">consectetur adipisicing.</span>
+                                <br><span class="medium">aliqua. Ut enim ad minim,</span><span class="mediumBold">veniam, quis </span>
+                                <br><span class="large">ostrud exercitation</span> <span class="largeBold">ullamco laboris nisi</span>
                                 <br><span class="author">Salvador Dali</span>
                             </h3>
                         </div>
@@ -649,22 +651,21 @@
         <div class="container contactContainer">
         
         	<div class="sixteen columns">
-            	<h1>Contact<span>Us</span></h1>
-                <h3><span class="mediumBold">Get in</span> <span class="medium">touch</span>
-                <br><span class="medium">let's</span> <span class="mediumBold">have a chat</span>
-                <br><span class="large">we can</span> <span class="largeBold">help you</span>
-                <br><span class="medium">promote</span> <span class="mediumBold">your business.</span> 
+            	<h1>Contactanos</h1>
+                <h3><span class="mediumBold">Ponte en</span> <span class="medium">contacto</span>
+                <br><span class="medium">Hablemos de</span> <span class="mediumBold">negocios</span>
+                <br><span class="large">Podemos</span> <span class="largeBold">ayudarle</span>
+                <br><span class="medium">Promueva se</span> <span class="mediumBold">negocio.</span> 
                 </h3>
             </div> 
-               
             <div class="three columns marginTop contactDetails">
                     <p class="contactAddress">123 Flinders St<br/>Melbourne VIC 3000
                     		<br/><a href="#?custom=true&width=500&height=500" rel="prettyPhoto">Google Map</a></p>
             </div>
             <div class="three columns marginTop contactDetails">
                     <p class="contactPhone">Phone: (03) 1234 5678</p>
-                    <p class="contactEmail">Email: <a href="#">office@surreal.com.au</a></p>
-                    <p class="contactSkype">Skype: <a href="#">melb@surreal.com.au</a></p>
+                    <p class="contactEmail">Email: <a href="#">office@.com.au</a></p>
+                    <p class="contactSkype">Skype: <a href="#">melb@.com.au</a></p>
             </div>
             <div class="three columns marginTop contactDetails">
                     <p class="contactTime">
@@ -708,9 +709,8 @@
 				<div class="quote">
                 	<div class="container">
                         <div class="sixteen columns">
-                        	<h3>
-                            <span class="large">Visit our</span> <span class="largeBold">funky studio</span>
-                            <br><span class="medium">in the heart of</span><span class="mediumBold"> Sydney.</span> 
+                        	 <h3><span class="largeBold">Lorem ipsum dolor sit amet,</span> <span class="large">consectetur adipisicing.</span>
+                                <br><span class="medium">aliqua. Ut enim ad minim,</span><span class="mediumBold">veniam, quis </span>
                             </h3>
                         </div>
                     </div>  
@@ -729,7 +729,7 @@
         <div class="container">
             <!-- Our Clients -->
             <div class="sixteen columns">
-                <h3 class="sectionTitle">Our Clients</h3>
+                <h3 class="sectionTitle">Nuestros clientes</h3>
             </div>
             
             <div class="sixteen columns">
@@ -752,7 +752,7 @@
             <!-- Our Clients End -->
             
             <div class="sixteen columns">	
-                <p class="copyright">&copy; Surreal Studio 2012. <br/>All rights reserved. Theme by <a href="http://html5css3templates.com/" title="Premium Responsive Templates">HTML5CSS3Templates</a>.</p>
+                <p class="copyright">&copy; agencia 2014. <br/>All rights reserved. </p>
             </div>
         </div>
     </div>
